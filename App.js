@@ -9,15 +9,16 @@ import AuthProvider from './src/contexts/auth';
 import Routes from './src/routes/index';
 
 export default function App() {
+   //firebase conexion goes down here
    let firebaseConfig = {
-      apiKey: "AIzaSyA9jLjJf9tjT3wVTcoXkDzRAupD0hHz8iI",
-      authDomain: "cidadenoticia-d2c48.firebaseapp.com",
-      databaseURL: "https://cidadenoticia-d2c48-default-rtdb.firebaseio.com",
-      projectId: "cidadenoticia-d2c48",
-      storageBucket: "cidadenoticia-d2c48.appspot.com",
-      messagingSenderId: "25935586481",
-      appId: "1:25935586481:web:ed6fc8deff96b147fb2e90",
-      measurementId: "G-7B6L6C05EW"
+      apiKey: 'api key'
+      authDomain: 'name project domain'
+      databaseURL: 'database url'
+      projectId: 'project id'
+      storageBucket: 'storage bucket'
+      messagingSenderId: 'id messager'
+      appId: 'app id'
+      measurementId: 'id meaurement'
     };
     // Initialize Firebase
     if(!firebase.apps.length){
